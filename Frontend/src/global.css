@@ -1,0 +1,13 @@
+/* Remove horizontal scrolling */
+body {
+   margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #142d3c, #203a43, #2c5364);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Make charts fit the screen */
+canvas {
+  max-width: 100% !important;
+}
